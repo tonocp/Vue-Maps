@@ -26,7 +26,7 @@ export default defineComponent({
 
       const myLocationPopup = new Mapboxgl.Popup({ offset: [0, -25] })
         .setLngLat(userLocation.value)
-        .setHTML(`<h4>Ud. esta aquí</h4><h6>${userLocation.value}</h6>`);
+        .setHTML(`<h4>You're here!</h4><h6>${userLocation.value}</h6>`);
 
       const myLocationMarker = new Mapboxgl.Marker().setLngLat(userLocation.value).setPopup(myLocationPopup).addTo(map);
 
