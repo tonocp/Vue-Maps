@@ -6,7 +6,7 @@
       <h5>Nombre del Lugar</h5>
       <p>Exercitation sit Lorem velit proident adipisicing aute excepteur qui do mollit aute duis.</p>
       <div align="right">
-        <button class="btn btn-outline-primary">Direcciones</button>
+        <button class="btn btn-outline-primary btn-sm">Go To</button>
       </div>
     </li>
 
@@ -14,7 +14,7 @@
       <h5>Nombre del Lugar</h5>
       <p>Exercitation sit Lorem velit proident adipisicing aute excepteur qui do mollit aute duis.</p>
       <div align="right">
-        <button class="btn btn-outline-primary">Direcciones</button>
+        <button class="btn btn-outline-primary btn-sm">Go To</button>
       </div>
     </li>
 
@@ -22,7 +22,7 @@
       <h5>Nombre del Lugar</h5>
       <p>Exercitation sit Lorem velit proident adipisicing aute excepteur qui do mollit aute duis.</p>
       <div align="right">
-        <button class="btn btn-outline-primary">Direcciones</button>
+        <button class="btn btn-outline-primary btn-sm">Go To</button>
       </div>
     </li>
   </ul>
@@ -31,5 +31,13 @@
 <style scoped>
 li {
   cursor: pointer;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 10px;
 }
 </style>

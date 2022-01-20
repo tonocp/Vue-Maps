@@ -7,7 +7,7 @@ const mutation: MutationTree<MapState> = {
     // a line to prevent linter errors
   },
 
-  setMap(state, map: Mapboxgl.Map) {
+  setMap(state: MapState, map: Mapboxgl.Map) {
     state.map = map;
   },
 };
