@@ -28,8 +28,9 @@ export default defineComponent({
 
 <style scoped>
 button {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   position: fixed;
-  top: 30px;
   right: 30px;
+  top: 30px;
 }
 </style>
